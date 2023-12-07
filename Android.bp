@@ -1,0 +1,11 @@
+android_app_import {
+        name: "MotoClock",
+        owner: "motorola",
+        apk: "MotoClock.apk",
+        overrides: ["DeskClock", "PrebuiltDeskClockGoogle"],
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+        product_specific: true,
+}
